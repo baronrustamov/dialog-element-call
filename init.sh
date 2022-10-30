@@ -1,3 +1,6 @@
+#!/bin/bash
+
+
 git clone https://github.com/matrix-org/matrix-js-sdk.git
 cd matrix-js-sdk
 git checkout robertlong/group-call
