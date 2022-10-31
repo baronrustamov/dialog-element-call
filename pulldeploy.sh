@@ -2,5 +2,6 @@
 
 git pull
 yarn run build
-cp -r ./dist/* /var/www/html/call/
+sudo rm -rf var/www/html/call/*
+sudo cp -r ./dist/* /var/www/html/call/
 echo '======== DONE ========'
